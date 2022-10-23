@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 35px;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 17px;
+  background-color: teal;
+}
+
+.container {
+  width: 80%;
+  margin: 80px 15%;
+}
+
+#img1 {
+  border: 5px solid;
+  width: 300px;
+}
+
+#img2 {
+  float: right;
+  width: 400px;
+  height: 190px;
+  border: 5px solid;
+}
+
+#yanmenu {
+
+  position: fixed;
+  top: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  overflow: scroll;
+  opacity: 0.7;
+}
+
+#yanmenu ul li {
+
+  list-style: none;
+  padding: 10px 10px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+#yanmenu ul li a {
+
+  color: white;
+  text-decoration: none;
+}
+
+#yanmenu ul li:hover {
+
+  background-color: wheat;
+  transition: 0.4s;
+}
+
+
+nav {
+  
+  background-color: black;
+  position: absolute;
+  right: 0;
+  left: 60px;
+  top: 0;
+  position: fixed;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+nav ul li {
+
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li{
+
+    display: inline;
+    margin: 13%;
+}
+
+nav ul li a{
+
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav a:hover{
+
+      background-color: mediumslateblue;
+      transition: 0.5s;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.yonlendir a{
+
+  display: inline-block;
+  margin: 155px;
+  text-decoration: none;
+  color: red;
+}
+
+.yonlendir a:hover{
+
+    background-color:antiquewhite ;
+    transition: 0.4s;
+}

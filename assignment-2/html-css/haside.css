@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    width: 80%;
+    margin: 80px 17%;
+    background-color:olive;
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 17px;
+    color: wheat;
+    line-height: 40px;
+}
+
+h1 {
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+
+    text-align: center;
+}
+
+#img1 {
+
+    border: 5px solid;
+    width: 400px;
+}
+
+#img2 {
+
+    border: 5px solid;
+    width: 400px;
+    float: right;
+}
+
+#menu {
+
+    background-color:midnightblue;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    opacity: 0.7;
+}
+
+#yanmenu {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    overflow: scroll;
+    opacity: 0.7;
+  }
+  
+  #yanmenu ul li {
+  
+    list-style: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
+  
+  #yanmenu ul li a {
+  
+    color: white;
+    text-decoration: none;
+  }
+  
+  #yanmenu ul li:hover {
+  
+    background-color: wheat;
+    transition: 0.5s;
+
+  }
+
+#oncekisayfa {
+
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin-left: 250px;
+
+}
+
+#sonrakisayfa {
+
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 250px;
+
+}
+
+#sayfabasi {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+nav a:hover {
+
+    background-color: black;
+    transition: 0.4s;
+}
+
+ul li{
+
+    color: wheat;
+}
+
+
