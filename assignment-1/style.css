@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body{
+
+    background-color: darkgray;
+    line-height: 40px;
+}
+
+.container{
+    
+    width: 77%;
+    margin: 50px auto;
+    
+}
+
+.menu{
+    
+    margin: 25px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.menu a{
+
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.sertifika1{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    position: absolute;
+    right: 45px;
+    margin-top: 100px;
+}
+
+.sertifika2{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    margin-top: 100px;
+}
+
+.sertifika3{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    position: absolute;
+    right: 45px;
+
+}
+
+.sertifika4{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+
+}
+
+.sertifika5{
+    width: 350px;
+    height: 238px;
+    border: 5px solid black;
+    position: absolute;
+    right: 45px;
+
+}
+
+.sertifika6{
+    width: 350px;
+    height: 238px;
+    border: 5px solid black;
+
+}
+
+.sertifika7{
+    
+    width: 350px;
+    height: 245px;
+    margin-left: 450px;
+    position: absolute;
+    top: 2210px;
+    border: 5px solid black;
+}
+
+#sayfabasi{
+
+    text-decoration: none;
+    position: absolute;
+    right: 50%;
+}
+
