@@ -19,17 +19,16 @@ if (isset($_POST["basvur"])) {
     $dogumtarih = $_POST["dogumtarih"];
     $tel = $_POST["tel"];
     $mail = $_POST["mail"];
+    $ozgecmis = $_POST["ozgecmis"];
 
-    $sql = "INSERT INTO basvuru (ad,soyad,tel,dogumtarih,mail) VALUES('".$ad."','".$soyad."','".$tel."','".$dogumtarih."','".$mail."')";
+    $sql = "INSERT INTO basvuru (ad,soyad,tel,dogumtarih,mail,ozgecmis) VALUES('".$ad."','".$soyad."','".$tel."','".$dogumtarih."','".$mail."','".$ozgecmis."')";
     $sonuc = mysqli_query($baglandb, $sql);
     echo "<script> alert('Başvurunuz Alınmıştır.!') </script>";
     header("Refresh: 3; url = index.php");
 
 }
 
-
 ?>
-
 
 <style>
     
@@ -54,7 +53,7 @@ if (isset($_POST["basvur"])) {
 
     .form h1 {
 
-        margin-bottom: 50px;
+        margin-top: 50px;
         color: green;
 
     }
@@ -75,8 +74,7 @@ if (isset($_POST["basvur"])) {
 
     #buton {
 
-        margin-top: 60px;
-        margin-bottom: 20px;
+        margin-top: 40px;
         background-color: cornflowerblue;
         color: white;
         font-size: 16px;
@@ -93,7 +91,6 @@ if (isset($_POST["basvur"])) {
 
     #temizle {
 
-        margin-bottom: 20px;
         background-color: cornflowerblue;
         color: red;
         font-size: 16px;
@@ -106,6 +103,11 @@ if (isset($_POST["basvur"])) {
         transition: 0.5s;
         transform: scale(0.90);
         cursor: pointer;
+    }
+
+    #ozgecmis{
+
+        margin-top: 40px;
     }
 </style>
 
@@ -120,6 +122,7 @@ if (isset($_POST["basvur"])) {
             <input type="date" name="dogumtarih" placeholder="Doğum Tarihiniz" required>
             <input type="tel" name="tel" maxlength = "10" placeholder="Telefon Numaranız" required>
             <input type="email" name="mail" maxlength = "20" placeholder="Mailiniz" required>
+            <textarea name="ozgecmis" id="ozgecmis" cols="30" rows="10" >Kendinizden Bahsedin.</textarea>
             <input button type="submit" name="basvur" value="Başvur" id="buton">
             <input type="reset" value="Temizle" id="temizle">
         </form>
@@ -130,9 +133,3 @@ if (isset($_POST["basvur"])) {
 </body>
 
 </html>
-
-<?php
-
-
-
-?>
